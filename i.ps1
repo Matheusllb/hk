@@ -4,7 +4,7 @@ $Repo = 'Matheusllb/harness-kit'
 $Kit = Join-Path $env:USERPROFILE '.harness-kit'
 $Seco = $env:HARNESS_KIT_SECO -eq '1'
 $Desde = [DateTime]::Now.Ticks
-$Total = 8
+$Total = 9
 $S = @{ N = 0; Saida = ''; Sobre = $false }
 $Ck = [string][char]0x2713
 $Xx = [string][char]0x2717
